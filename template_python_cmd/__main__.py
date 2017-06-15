@@ -1,6 +1,6 @@
 import sys
 from template_python_cmd import hoge
-from template_python_cmd.moge.noge import noge
+from template_python_cmd.moge import noge
 
 
 def main():
