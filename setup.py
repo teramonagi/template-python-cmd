@@ -1,9 +1,9 @@
-from distutils.core import setup
+from distutils.core import setup, find_packages
 
 setup(
     name='template_python_cmd',
     version='1.0',
-    packages=['template_python_cmd'],
+    packages=find_packages(),
     url='',
     license='BSD',
     author='Nagi Teramo',
