@@ -1,6 +1,6 @@
 import sys
-import hoge
-from moge import noge
+from template_python_cmd import hoge
+from template_python_cmd.moge import noge
 
 def main():
     print("Main function is called")
