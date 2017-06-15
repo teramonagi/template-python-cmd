@@ -3,7 +3,7 @@ from distutils.core import setup, find_packages
 setup(
     name='template_python_cmd',
     version='1.0',
-    packages=find_packages(),
+    packages=['template_python_cmd'],
     url='',
     license='BSD',
     author='Nagi Teramo',
