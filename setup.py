@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='template_python_cmd',
     version='1.0',
-    packages=['template_python_cmd'],
+    packages=['template_python_cmd', 'template_python_cmd.moge'],
     url='',
     license='BSD',
     author='Nagi Teramo',
