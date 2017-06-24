@@ -10,7 +10,7 @@ $ pip install git+https://github.com/teramonagi/template-python-cmd
 Local
 ```
 $ cd <path to template-python-cmd>
-$ pip .
+$ pip install .
 ```
 
 ## Use as python script
@@ -22,11 +22,13 @@ $ python -m template_python_cmd
 
 ## Use as library
 ```
-$ import template_python_cmd    .hoge
+$ import template_python_cmd.hoge
 $ template_python_cmd.hoge.hello()
 $ import template_python_cmd.moge.noge
 $ template_python_cmd.moge.noge.f()
 $ from template_python_cmd.moge import noge
 $ noge.f()
+$ from template_python_cmd.moge.noge import f
+$ f()
 ```
 
